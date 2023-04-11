@@ -1,4 +1,4 @@
-h1{
+/* h1{
     position: fixed;
     color:red;
     font-size: 50px;
@@ -9,7 +9,7 @@ h1{
     position: absolute;
     top:0px;
     left:50vw;
-    background-color: rgb(111, 255, 0);
+    background-color: green;
     width:200px;
     height: 200px;
 }
@@ -26,18 +26,18 @@ h1{
     position: relative;
     left:40px;
     top:20px;
-    background-color: rgb(0, 255, 238);
+    background-color: skyblue;
     width:200px;
     height: 200px;
 }
 #div4{
     
-    background-color: rgb(0, 115, 255);
+    background-color:darkblue;
     width:200px;
     height: 200px;
 }
 #div5{
-    background-color: rgb(255, 0, 217);
+    background-color: magenta;
     width:200px;
     height: 200px;
-}
+} */

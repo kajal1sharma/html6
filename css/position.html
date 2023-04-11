@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body style="border:10px solid red">
-    <h1  style="border:5px solid black">this is Positioning Tutorial</h1>
+    <!-- <h1  style="border:5px solid black">this is Positioning Tutorial</h1>
     <ul style="border:5px solid black">
         <li style="color:green">static </li>
         <li >absolute</li>
@@ -13,15 +13,20 @@
         <li>fixed</li>
         <li>sticky</li>
 
-    </ul>
+    </ul> -->
 
-    <div id="div1"></div>
-    <div id="div2"></div>
-    <div id="div3"></div>
-    <div id="div4"></div>
-    <div id="div5"></div>
-    <div id="div3"></div>
-    <div id="div4"></div>
-    <div id="div5"></div>
+    <div style="width:50vw;height:800vh; background-color: aqua;margin-top: 100px;margin-left: 100px;">
+        <span style="z-index: 1;position:sticky;top:0vh;left:100px;font-size: 50px;border:5px solid black">This is a span </span>
+        <div id="div1" style="left:100px;top:0px;position:relative;background-color: antiquewhite;width:100px ; height:100px"></div>
+        <div id="div2" style="z-index: -1;position:sticky;top:10px;background-color: black;width:100px;height:100px"></div>
+        <!-- <div id="div3"></div>
+        <div id="div4"></div>
+        <div id="div5"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+        <div id="div5"></div> -->
+    </div>
+
+ 
 </body>
 </html>
