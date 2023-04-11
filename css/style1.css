@@ -1,0 +1,43 @@
+h1{
+    position: fixed;
+    color:red;
+    font-size: 50px;
+    text-align: center;
+    left:30vw;
+}
+#div2{
+    position: absolute;
+    top:0px;
+    left:50vw;
+    background-color: rgb(111, 255, 0);
+    width:200px;
+    height: 200px;
+}
+#div1{
+    position:sticky;
+    top:0px;
+    background-color: red;
+    width:200px;
+    height: 200px;
+}
+
+
+#div3{
+    position: relative;
+    left:40px;
+    top:20px;
+    background-color: rgb(0, 255, 238);
+    width:200px;
+    height: 200px;
+}
+#div4{
+    
+    background-color: rgb(0, 115, 255);
+    width:200px;
+    height: 200px;
+}
+#div5{
+    background-color: rgb(255, 0, 217);
+    width:200px;
+    height: 200px;
+}
