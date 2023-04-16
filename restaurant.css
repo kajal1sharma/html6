@@ -1,0 +1,41 @@
+.javelin1{
+    width:70px;
+    height:15px;
+}
+.burger1{
+    border-radius: 10px;
+    width:45vw;
+    margin-left: 20px;
+    margin-top: 20px;
+    clear:both;
+}
+.container1{
+    margin-top: 200px;
+    width:450px;
+    float:right;
+    margin-right: 150px;
+    text-align: left;
+}
+.menuabout{
+    padding:10px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#para1{
+ color:grey;
+
+}
+#para2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
