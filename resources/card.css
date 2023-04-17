@@ -1,0 +1,16 @@
+.food_items{
+display: flex;
+flex-direction: row;
+background-color: aquamarine;
+justify-content:center;
+gap:2vw;
+width:100vw;
+}
+
+.card{
+    width: 25vw;
+    border:1px solid black;
+    background-color:white;
+    padding:2vw;
+    border-radius: 10px;
+}
