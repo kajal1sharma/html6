@@ -1,3 +1,14 @@
+@font-face {
+    font-family:'Castoro Titling' ;
+    src: url('./resource/DancingScript-VariableFont_wght.ttf ')
+}
+.h1class{
+        font-family: Castoro Titling;
+}
+.h1class2{
+    font-family: sans-serif;
+}
+
 .gallery{
     position: absolute;
     z-index: -1;
