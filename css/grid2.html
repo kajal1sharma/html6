@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: black; display: grid; 
+     /*grid-template-columns: 1fr 2fr 3fr;*//*100% div except for  content=>space  */
+   /* grid-template-rows: 3fr 2fr 1fr;content*/
+   grid-template-columns: 2fr repeat(2,1fr) 300px repeat(2, 3fr);
+   row-gap: 30px;
+    column-gap: 30px;
+    font-size: 32px;
+    ">
+        
+        <div style=" grid-column: 1/4 ; grid-row: 1/4;
+        background-color: aliceblue;" >box1</div>
+        <div style="
+        grid-column: -1/-4;
+        background-color: rgb(124, 159, 189);">box2</div>
+        <div style="grid-row: 2/4;
+        background-color: rgb(48, 129, 70);">box3</div>
+        <div style="background-color: rgb(19, 106, 183);">box4</div>
+        <div style="background-color: rgb(200, 209, 75);">box5</div>
+        <div style="background-color: rgb(168, 60, 60);">box6</div>
+        <div style="background-color: rgb(183, 123, 167);">box7</div>
+        <div style="background-color: rgb(72, 125, 171);">box8</div>
+        <div style="background-color: rgb(94, 175, 139);">box9</div>
+        <div style="background-color: rgb(196, 179, 143);">box10</div>
+        <div style="background-color: rgb(81, 190, 91);">box11</div>
+        <div style="background-color: #4c8bc2;">box12</div>
+    </div>
+</body>
+</html>
