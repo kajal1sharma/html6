@@ -69,7 +69,7 @@
        li:nth-of-type(2){
             color:magenta;
        } */
-       p:nth-child(3)
+       /* p:nth-child(3)
        {
         color:red;
        }
@@ -93,13 +93,66 @@
        input:required{
             border:5px solid green;
        }
+    
+        label{
+            font-size: 20px;
+        }
+        input:in-range{
+            color:green;
+
+        }
+        input:out-of-range{
+            color:red;
+        }
+        label:read-only{
+            color:green;
+        }
+        /* input:read-only{
+            background-color: red;
+        } 
+        input:read-write{
+            color:rgba(157, 8, 33, 0.317);
+        }
+        input:enabled{
+            border:5px solid goldenrod;
+        } */
+
+        input:placeholder-shown{
+            background-color: rgba(255, 0, 0, 0.349);
+        }
+        input:checked{
+            border:4px solid black;
+
+            color:rgb(111, 255, 0);
+        }
     </style>
 </head>
 <body>
 <div>
-    <input type="text" maxlength=4 />
-    <input type="text" required placeholder="enter your name"/>
-    <input type="number" min=12 max=21 step="3">
+
+    <p>Select gender
+        <label >Male
+            <input type="radio" checked>
+        </label>
+        <label>Female
+            <input type="radio">
+        </label>
+    </p>
+    
+    <p>
+        <label for="username">UJsernaem</label>
+        <input id="username" type="text" maxlength=4 placeholder="enter about you">
+    </p>
+    <p>
+        <label>About you</label> 
+        <input type="text" required placeholder="enter your name"/>
+    </p>
+    <p>
+        <label>Marks</label>
+        <input type="number" min=0 max=100 step="10">
+    </p>
+    
+    
 
     <!-- <button>Click</button> -->
         <!-- <ul  >
