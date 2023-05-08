@@ -1,0 +1,11 @@
+#head2, h2, h3, #head1{
+    color:greenyellow;
+}
+#head2, h3, h1, .chead2{
+    color:pink;
+}
+
+
+h3, #head3, .chead1, .chead2, h1, h2{
+    color:blue;
+}
