@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            perspective: 800px;
+            transform-style: preserve-3d;
+        }
+        .box1{
+            margin-top: 50px;
+            width:200px;
+            height:100px;
+            background-color: yellowgreen;
+            animation-name: scaleup;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        .box2{
+             margin-top: 50px;
+            width:200px;
+            height:100px;
+            background-color: yellowgreen;
+            animation-name: scaleup;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+        }
+        .box3{
+             margin-top: 50px;
+            width:200px;
+            height:100px;
+            background-color: yellowgreen;
+            animation-name: scaleup;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        .box4{
+             margin-top: 50px;
+            width:200px;
+            height:100px;
+            background-color: yellowgreen;
+            animation-name: scaleup;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+        }
+        .box5{
+             margin-top: 50px;
+            width:200px;
+            height:100px;
+            background-color: yellowgreen;
+            animation-name: scaleup;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .box6{
+             margin-top: 50px;
+            width:200px;
+            height:100px;
+            background-color: yellowgreen;
+            animation-name: scaleup;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: steps(4,start);
+        }
+
+
+        @keyframes scaleup{
+
+            0%{
+                background-color: aqua;
+                width: 200px;
+                transform: rotateY(0deg);
+            }
+            25%{
+                background-color: rgb(200, 255, 0);
+                width: 500px;
+                transform: rotateY(20deg);
+            }
+            40%{
+                background-color: rgb(68, 0, 255);
+                width: 800px;
+                transform: rotateY(70deg);
+            }
+            60%{
+                background-color: rgb(255, 0, 0);
+                width: 1000px;
+                transform: rotateY(180deg);
+            }
+            100%{
+                background-color: rgb(0, 255, 81);
+                width: 1000px;
+                transform: rotateY(360deg);
+            }
+
+
+        }
+        /* @keyframes scaleup{
+            from{
+
+                background-color: red;
+                width:200px;
+            }
+            to{
+                background-color: yellow;
+                width:1200px;
+            }
+        } */
+
+
+    </style>
+
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+</body>
+</html>
