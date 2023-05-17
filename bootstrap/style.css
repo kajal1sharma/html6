@@ -1,0 +1,13 @@
+.border1{
+    border:5px solid black;
+}
+.border-green{
+    border:5px solid rgb(222, 113, 70);
+}
+
+.card{
+    background-color: aquamarine;
+    height:300px;
+    border:5px red solid;
+
+}
