@@ -6,10 +6,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+<div class="container">
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-primary">1</button>
+        <button type="button" class="btn btn-primary">2</button>
+      
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+          </ul>
+        </div>
+      </div>
+</div>
+    
+
+
+    <div class="btn-toolbar">
+        <div class="btn-group ">
+            <button class="btn btn-primary">First</button>
+            <button class="btn btn-secondary">second</button>
+            <button class="btn btn-success">third</button>
+            <button class="btn btn-info">fourth</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-primary">First</button>
+            <button class="btn btn-secondary">second</button>
+            <button class="btn btn-success">third</button>
+            <button class="btn btn-info">fourth</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-primary">First</button>
+            <button class="btn btn-secondary">second</button>
+            <button class="btn btn-success">third</button>
+            <button class="btn btn-info">fourth</button>
+        </div>
+   
+        <div class="btn-group ">
+            <button class="btn btn-primary">First</button>
+            <button class="btn btn-secondary">second</button>
+            <button class="btn btn-success">third</button>
+            <button class="btn btn-info">fourth</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-primary">First</button>
+            <button class="btn btn-secondary">second</button>
+            <button class="btn btn-success">third</button>
+            <button class="btn btn-info">fourth</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-primary">First</button>
+            <button class="btn btn-secondary">second</button>
+            <button class="btn btn-success">third</button>
+            <button class="btn btn-info">fourth</button>
+        </div>
+    </div>
+    
     <div class="container">
+        <div class="row border-green">
+            <div class="col-10 border1 m-4  ">
+               
+            </div>
+        </div>
+        <div class="row border-green">
+            <div class="col-3 border1 m-4 ">
+                <div class="btn-group-vertical btn-group-sm m-4">
+                    <button class="btn btn-primary p-4">First</button>
+                    <button class="btn btn-secondary" disabled>second</button>
+                    <button class="btn btn-success active" >third</button>
+                    <button class="btn btn-info">fourth</button>
+                </div>
+            </div>
+        </div>
+        <div class="row border-green">
+            <div class="col-3 border1 m-4 ">
+                <div class="btn-group btn-group-sm m-4">
+                    <button class="btn btn-primary">First</button>
+                    <button class="btn btn-secondary">second</button>
+                    <button class="btn btn-success">third</button>
+                    <button class="btn btn-info">fourth</button>
+                </div>
+            </div>
+        </div>
+        <div class="row border-green">
+            <div class="col-3 border1 m-4 ">
+                <div class="btn-group m-4">
+                    <button class="btn btn-primary">First</button>
+                    <button class="btn btn-secondary">second</button>
+                    <button class="btn btn-success">third</button>
+                    <button class="btn btn-info">fourth</button>
+                </div>
+            </div>
+        </div>
+        <div class="row border-green">
+            <div class="col-4 border1 m-4 ">
+                <div class="btn-group btn-group-lg m-4">
+                    <button class="btn btn-primary">First</button>
+                    <button class="btn btn-secondary">second</button>
+                    <button class="btn btn-success">third</button>
+                    <button class="btn btn-info">fourth</button>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="row border-green">
+            <div class="col-3 border1 m-4">
+                <a href="#" class="btn btn-danger m-3">Button</a>
+            </div>
+            <div class="col-3 border1 m-4">
+                <input type="reset" class="btn btn-primary m-3"/>
+            </div>
+            <div class="col-3 border1 m-4">
+                <button class="btn btn-secondary m-3">SAve</button>
+            </div>
+
+        </div>
+        <div class="row border-green">
+            <div class="col-3 border1 m-4">
+                <button class="btn btn-sm btn-outline-danger m-3"> Danger </button>
+            </div>
+            <div class="col-3 border1 m-4">
+                <button class="btn btn-sm btn-outline-success m-3"> success </button>
+            </div>
+            <div class="col-3 border1 m-4">
+                <button class="btn  btn-sm btn-outline-primary m-3"> primary </button>
+            </div>
+            <div class="col-3 border1 m-4">
+                <button class="btn btn-sm btn-outline-secondary m-3"> secondary </button>
+            </div>
+            <div class="col-3 border1 m-4">
+                <button class="btn btn-sm btn-outline-warning m-3"> warning </button>
+            </div>
+            <div class="col-3 border1 m-4">
+                <button class="btn btn-sm btn-outline-info m-3"> info </button>
+            </div>
+            <div class="col-3 border1 m-4">
+                <button class="btn btn-sm btn-outline-light m-3"> light</button>
+            </div>
+            <div class="col-3 border1 m-4">
+                <button class="btn btn-sm btn-outline-dark m-3"> darks</button>
+            </div>
+        </div>
         <div class="row border-green">
             <div class="col-3 border1 m-4">
                 <button class="btn btn-sm btn-danger m-3"> Danger </button>
