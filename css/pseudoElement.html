@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+           
+            height:100px;
+            background-color: red;
+            
+        }
+        .box::after{
+            content:"this is pseudo eleement";
+            color:black;
+            width:100px;
+            height:100px;
+            background-color: aquamarine;
+            position: absolute;
+            border-radius: 12px;
+            top:0px;
+            left:200px;
+        }
+        .box::before{
+            content:"this is pseudo eleement";
+            color:black;
+            width:100px;
+            height:100px;
+            background-color: aquamarine;
+            position: absolute;
+            border-radius: 12px;
+            top:0px;
+            left:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <span>this is span element</span>
+    </div>
+</body>
+</html>
