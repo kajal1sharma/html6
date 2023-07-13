@@ -64,20 +64,6 @@ console.log(arr)
 
 
 
-//home work
-let obj = [{name:"priya",marks:[45,56,78]},{name:"tia",marks:[89,56,78]}
-          ,{name:"atul", marks:[78,89,90]},{name:"pooja", marks:[34,45,34]},
-            {name:"ria", marks:[90,23,45]}]
-    
-
-let obj2= {
-"41-50":[]  ,  
-"51-60":[{name:"priya",marks:[45,56,78]},{name:"ria", marks:[90,23,45]}],
-"61-70":[{},{}],
-"71-80":[],
-"81-90":[],
-"91-100":[]
-}
 
 
 
