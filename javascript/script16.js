@@ -1,5 +1,5 @@
 let str=""
-
+let arr=[]
 window.addEventListener('load',()=>{
 
     let inputbox = document.getElementById('inputbox');
@@ -21,17 +21,38 @@ function inputHandler(event){
 
 function buttonHandler(){
     
-    let li = document.createElement('li')
-    li.style.listStyle="none";
-    li.style.fontSize="24px"
-    li.textContent=str;
-     
-    let deletebutton = document.createElement('button');
-    deletebutton.textContent='delete'
-    deletebutton.setAttribute('class','deletebutton')
-    li.append(deletebutton);
-    console.log(li)
+    arr.push(str);
+    console.log(arr);
     let div = document.getElementById('list')
-    div.appendChild(li);
+    div.innerHTML=""
+    arr.forEach((ele, index)=>{
+        let li = document.createElement('li')
+        li.style.listStyle="none";
+        li.style.fontSize="24px"
+        li.textContent=ele;
+        
+         
+        let deletebutton = document.createElement('button');
+        deletebutton.setAttribute('id',index)
+        
+        deletebutton.addEventListener('click',(event)=>{
+            console.log(event.target.id)
+            let indexbutton =Number(event.target.id);
+            arr.splice(indexbutton,1)
+            console.log(arr)
+            div.removeChild(li);
+        })
+
+        deletebutton.textContent='delete'
+        deletebutton.setAttribute('class','deletebutton')
+        li.append(deletebutton);
+        console.log(li)
+      
+        div.appendChild(li);
+    })
+
+    
+
+
 
 }
