@@ -11,6 +11,7 @@ window.addEventListener('load',()=>{
         // arr.push(input);
         // console.log(arr);
         let li = document.createElement('li')
+        //removeElement
         li.textContent=input
        ultag.appendChild(li);
        
