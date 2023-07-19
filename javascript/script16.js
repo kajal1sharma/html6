@@ -14,7 +14,8 @@ window.addEventListener('load',()=>{
 })
 
 function inputHandler(event){
-    // console.log(event.target)
+     console.log("target is",event.target)
+
     console.log(event.target.value)
     str=event.target.value;
 }
